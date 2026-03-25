@@ -50,6 +50,16 @@ To handle the inherent ambiguity of Mongolian transliteration, the UI provides r
 
 -----
 
+### 🚀 Roadmap: AI-Powered Post-Processing (Phase II)
+
+To further eliminate the 8-12% of errors caused by complex grammatical suffixes and vowel harmony, the next iteration of this project will integrate a **Large Language Model (LLM) Correction Layer**.
+
+* **The "AI Fix" Feature:** A dedicated interface button that sends the raw Cyrillic output to a fine-tuned GPT-4o or Llama-3 instance.
+* **Contextual Grammar Repair:** The AI agent will analyze sentence-level context to automatically resolve the "Orange Underline" ambiguities that currently require manual user selection.
+* **Orthographic Standardization:** It will correct common misspellings in the Latin input (e.g., "Ulaanbaatar" vs "Ulaanbaatar") by predicting the most statistically probable Cyrillic intent.
+
+-----
+
 ## 🧪 Validation, Accuracy & Coverage (NLP Metrics)
 
 the MVP was evaluated against a validation set of 5,000 common Mongolian sentences.
